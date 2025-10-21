@@ -42,7 +42,7 @@ seaborn==0.13.2
 six==1.17.0
 stack-data==0.6.3
 streamlit>=1.32
-tensorflow==2.19.1
+tensorflow
 tornado==6.4.2
 traitlets==5.14.3
 tzdata==2025.2
