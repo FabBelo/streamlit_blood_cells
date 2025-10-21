@@ -54,8 +54,8 @@ Différents modèles ont été testés sur les deux jeux de données. Pour les 8
 Les différents modèles testés sur la préparation à 8 classes ont eu des résultats plutôt moyens. Le meilleur étant SVC avec une accuracy de 0.59 et le moins bon étant KNeighborsClassifier avec une ccuracy de 0.50.
 Pour la préparation à 13 classes les résultats sont légèrement meilleurs, avec une accuraccy la plus élevée pour le modèle SVC à 0.79 contre 0.76 pour le RandomForest.
 
-Pour modèles testés sur 8 classes, les plus diffciles à identifier sont les basophil, eosinophil, lymphocyte et ig avec des confusions croisées visibles dans les matrices.
-Pour modèles testés sur 13 classes, les plus diffciles à identifier sont les MMY, PMY et MY.
+Pour les modèles testés sur 8 classes, les plus diffciles à identifier sont les basophil, eosinophil, lymphocyte et ig avec des confusions croisées visibles dans les matrices.
+Pour les modèles testés sur 13 classes, les plus diffciles à identifier sont les MMY, PMY et MY.
 
 Dans la suite nous présenterons les résultats du modèle ayant eu les meilleurs performances.
 
