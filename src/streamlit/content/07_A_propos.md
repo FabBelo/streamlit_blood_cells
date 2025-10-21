@@ -2,7 +2,7 @@
 
 #### Fabien Belloc
 
-J'ai une licence en Statistiques et informatique décisionnelle réalisé en alternance chez Orange où je faisais un travail de reporting de satisfaction client. Depuis 2017 j'ai intégré l'assurance maladie en tant que qu'assistant statistiques, j'occupe maintenant le poste de DataManager avec pour principale mission la création de Datamart spécifiques issus du SNDS(Systéme National des Données de Santé) pour des porteurs de projets public et privés dans le domaine de la santé.
+J'ai une licence en Statistiques et informatique décisionnelle réalisée en alternance chez Orange où je faisais un travail de reporting de satisfaction client. Depuis 2017 j'ai intégré l'assurance maladie en tant qu'assistant statistiques. J'occupe maintenant le poste de DataManager avec pour principale mission la création de Datamart spécifiques issus du SNDS (Systéme National des Données de Santé) pour des porteurs de projets public et privés dans le domaine de la santé.
 
 #### Julien Therier
 

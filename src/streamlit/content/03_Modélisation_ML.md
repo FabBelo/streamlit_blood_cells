@@ -37,21 +37,21 @@ Afin de limiter la dépendance à la position centrale des cellules, nous appliq
 
 #### Réduction de dimension (LDA (13 classes) et PCA (8 classes))
 
-Nous appliquons une **Analyse Discriminante Linéaire (LDA)** sur la préparation à 13 classes pour projeter les features dans un espace réduit à de dimension **12**, ce qui devrait permettre de mieux différencier les classes : `X_train_lda` : **(16 365, 12)**, `X_test_lda` : **(3 415, 12)**.
+Nous appliquons une **Analyse Discriminante Linéaire (LDA)** sur la préparation à 13 classes pour projeter les features dans un espace réduit de dimension **12**, ce qui devrait permettre de mieux différencier les classes : `X_train_lda` : **(16 365, 12)**, `X_test_lda` : **(3 415, 12)**.
 
-Nous appliquons une **Principal Composant Analysis (PCA)** sur la préparation à 8 classes pour projeter les features dans un espace réduit a dimension **10**, ce qui devrait permettre de mieux différencier les classes : `X_train_pca` : **(26 976, 10)**, `X_test_lda` : **(26 976, 10)**.
+Nous appliquons une **Principal Composant Analysis (PCA)** sur la préparation à 8 classes pour projeter les features dans un espace réduit de dimension **10**, ce qui devrait permettre de mieux différencier les classes : `X_train_pca` : **(26 976, 10)**, `X_test_lda` : **(26 976, 10)**.
 
 ---
 
 ### Modèles testés et réglages
 
-Différent modèle ont été testé sur les deux jeux de données. Pour les 8 classes les modèles testés sont : RandomForest, SVC, KNeighborsClassifier et XGBoost. Pour la le jeu de données à 13 classes les modèle testés sont RandomForest et SVC.
+Différents modèles ont été testés sur les deux jeux de données. Pour les 8 classes les modèles testés sont : RandomForest, SVC, KNeighborsClassifier et XGBoost. Pour le jeu de données à 13 classes les modèle testés sont RandomForest et SVC.
 
 ---
 
 ### Résultat globaux
 
-Les différents modèles testés sur la préparation à 8 classes ont eu des résultats plutôt moyens. Le moins bon étant SVC avec une accuracy de 0.59 et le moins bon étant KNeighborsClassifier avec une ccuracy de 0.50.
+Les différents modèles testés sur la préparation à 8 classes ont eu des résultats plutôt moyens. Le meilleur étant SVC avec une accuracy de 0.59 et le moins bon étant KNeighborsClassifier avec une ccuracy de 0.50.
 Pour la préparation à 13 classes les résultats sont légèrement meilleurs, avec une accuraccy la plus élevée pour le modèle SVC à 0.79 contre 0.76 pour le RandomForest.
 
 Pour modèles testés sur 8 classes, les plus diffciles à identifier sont les basophil, eosinophil, lymphocyte et ig avec des confusions croisées visibles dans les matrices.
