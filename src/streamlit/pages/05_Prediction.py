@@ -27,7 +27,7 @@ STREAMLIT_DIR = PAGE_DIR.parent
 SRC_DIR = STREAMLIT_DIR.parent
 REPO_ROOT = SRC_DIR.parent
 MODELS_DIR = REPO_ROOT / "models"
-MODEL_PATH = SRC_DIR / "densenet201_blood_cells.keras"
+MODEL_PATH = SRC_DIR / "models" / "densenet201_blood_cells.keras"
 
 INPUT_SIZE = (224, 224)  # redimensionnement unique
 
